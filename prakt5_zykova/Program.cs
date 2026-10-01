@@ -12,8 +12,9 @@ namespace prakt5_zykova
         {
             Console.WriteLine("Введите n: ");
             int n = int.Parse(Console.ReadLine());
-            int n1 = 0;
-            int n2 = 0;
+            int Nostatok = 0;
+            int Nneostatok = 0;
+            int res = n;
 
             while (n == 0 || n < 0)
             {
@@ -21,12 +22,18 @@ namespace prakt5_zykova
                 n = int.Parse(Console.ReadLine());
             }
 
-            int res = n;
             while (res % 7 != 0)
             {
-                n1 = n % 10;
-                n2 = n / 10;
-                res = n1 * 100 + n2;
+                Nostatok = res % 10;
+                Nneostatok = res / 10;
+
+                for (int i = Nneostatok; i > 0;)
+                {
+                    i = i / 10;
+                    Nostatok *= 10;
+                }
+
+                res = Nostatok + Nneostatok;
 
                 if (res == n)
                     break;
@@ -40,7 +47,7 @@ namespace prakt5_zykova
             {
                 Console.WriteLine("не делится, вернулись к " + n);
             }
-            
+
         }
     }
 }
