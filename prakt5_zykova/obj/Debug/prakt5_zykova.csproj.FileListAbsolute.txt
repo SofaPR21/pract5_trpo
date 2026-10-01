@@ -1,0 +1,7 @@
+C:\Users\st310-02\Desktop\Зыкова\prakt5_zykova\prakt5_zykova\bin\Debug\prakt5_zykova.exe.config
+C:\Users\st310-02\Desktop\Зыкова\prakt5_zykova\prakt5_zykova\bin\Debug\prakt5_zykova.exe
+C:\Users\st310-02\Desktop\Зыкова\prakt5_zykova\prakt5_zykova\bin\Debug\prakt5_zykova.pdb
+C:\Users\st310-02\Desktop\Зыкова\prakt5_zykova\prakt5_zykova\obj\Debug\prakt5_zykova.csproj.AssemblyReference.cache
+C:\Users\st310-02\Desktop\Зыкова\prakt5_zykova\prakt5_zykova\obj\Debug\prakt5_zykova.csproj.CoreCompileInputs.cache
+C:\Users\st310-02\Desktop\Зыкова\prakt5_zykova\prakt5_zykova\obj\Debug\prakt5_zykova.exe
+C:\Users\st310-02\Desktop\Зыкова\prakt5_zykova\prakt5_zykova\obj\Debug\prakt5_zykova.pdb
